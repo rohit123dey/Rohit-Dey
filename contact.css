@@ -1,0 +1,256 @@
+body{
+  color: #40514E;
+  margin:0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+h3
+{
+  color: white;
+}
+th{
+  font-weight: bold;
+  font-size:20px;
+}
+.home{
+font-size:12px;
+
+margin-right: 30px;
+text-align:right;
+color:white;
+font-family: 'Arial';
+text-decoration:underline;
+font-weight: normal;
+}
+.home:hover{
+  color: #797A7E;
+
+}
+.top{
+  background-color:#b7efcd;
+  margin:0;
+  padding:20px 0;
+  font-weight:bold;
+  font-size:30px;
+}
+.middle{
+  background-color: #68b0ab;
+  color:white;
+  margin: 0;
+  padding: 30px;
+  padding-bottom:50px;
+}
+.bottom{
+ background-color:#3B5249;
+  padding: 20px;
+}
+.Basirhat{
+
+  width: 50%;
+  float: right;
+
+  padding-top: 10px;
+
+}
+.Address{
+
+  margin-left:100px;
+  text-align: left;
+  line-height: 1;
+}
+.name{
+  width: 50%;
+  padding:6px;
+  border: none;
+  border-radius: 4%;
+  background-color:#888888;
+}
+.title{
+  line-height: 2;
+}
+textarea{
+  width: 50%;
+  margin-bottom: 20px;
+  padding:8px;
+
+}
+.column{
+width:50%;
+}
+.columnsecond{
+ align-items: center;
+ margin:20px;
+}
+.Contact{
+  width:45%;
+  margin:50px auto;
+  line-height: 2;
+}
+
+.btn {
+  background: #ff5252;
+  background-image: -webkit-linear-gradient(top, #ff5252, #c44444);
+  background-image: -moz-linear-gradient(top, #ff5252, #c44444);
+  background-image: -ms-linear-gradient(top, #ff5252, #c44444);
+  background-image: -o-linear-gradient(top, #ff5252, #c44444);
+  background-image: linear-gradient(to bottom, #ff5252, #c44444);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 60px 8px 60px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #25c22f;
+  background-image: -webkit-linear-gradient(top, #25c22f, #523838);
+  background-image: -moz-linear-gradient(top, #25c22f, #523838);
+  background-image: -ms-linear-gradient(top, #25c22f, #523838);
+  background-image: -o-linear-gradient(top, #25c22f, #523838);
+  background-image: linear-gradient(to bottom, #25c22f, #523838);
+  text-decoration: none;
+}
+
+
+.css-button-facebook{
+  margin:20px 50px;
+  padding:10px 10px;
+}
+.css-button-linkdin{
+  margin:20px 50px;
+  padding:10px 10px;
+}
+.css-button-instagram{
+  margin:20px 50px;
+  padding:10px 10px;
+}
+
+/*facebook*/
+.css-button-facebook {
+	font-size: 22px;
+	border-radius: 50px;
+	border: solid 0px #3866A3;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, #63B8EE 5%, #468CCF 100%);
+	text-shadow: 1px 1px 0px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	font-family: Arial;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.css-button-facebook:hover {
+	background: linear-gradient(180deg, #468CCF 5%, #63B8EE 100%);
+}
+.css-button-facebook:active {
+	position: relative;
+	top: 1px;
+}
+.css-button-facebook > span {
+	display: block;
+}
+.css-button-facebook-icon {
+	padding: 16px 10px;
+	text-shadow: none;
+}
+.css-button-facebook-icon i {
+	position: relative;
+	font-size: 25px;
+	top: 0px;
+	left: 8px;
+	vertical-align: middle;
+}
+.css-button-facebook-text {
+	padding: 11px 8px;
+}
+
+/*linkdin*/
+.css-button-linkdin {
+	font-size: 22px;
+	border-radius: 50px;
+	border: solid 0px #3866A3;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, #63B8EE 5%, #468CCF 100%);
+	text-shadow: 1px 1px 0px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	font-family: Arial;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.css-button-linkdin:hover {
+	background: linear-gradient(180deg, #468CCF 5%, #63B8EE 100%);
+}
+.css-button-linkdin:active {
+	position: relative;
+	top: 1px;
+}
+.css-button-linkdin > span {
+	display: block;
+}
+.css-button-linkdin-icon {
+	padding: 16px 10px;
+	text-shadow: none;
+}
+.css-button-linkdin-icon i {
+	position: relative;
+	font-size: 25px;
+	top: 0px;
+	left: 8px;
+	vertical-align: middle;
+}
+.css-button-linkdin-text {
+	padding: 9px 10px;
+}
+
+
+/*Instagram*/
+.css-button-instagram {
+	font-size: 22px;
+	border-radius: 50px;
+	border: solid 0px #3866A3;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, #e01d8b 5%, #d47800 100%);
+	text-shadow: 1px 1px 0px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	font-family: Arial;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.css-button-instagram:hover {
+	background: linear-gradient(180deg, #d47800 5%, #e01d8b 100%);
+}
+.css-button-instagram:active {
+	position: relative;
+	top: 1px;
+}
+.css-button-instagram > span {
+	display: block;
+}
+.css-button-instagram-icon {
+	padding: 16px 10px;
+	text-shadow: none;
+}
+.css-button-instagram-icon i {
+	position: relative;
+	font-size: 29px;
+	top: 1px;
+	left: 8px;
+	vertical-align: middle;
+}
+.css-button-instagram-text {
+	padding: 12px 10px;
+}
